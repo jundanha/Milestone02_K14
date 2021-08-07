@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
+
+@media screen and (max-width: 1000px){
+    #banner{
+        margin-top: -50px !important;
+        height: 50vh !important;
+        background-repeat: no-repeat !important;
+        background-size: 300% 100%!important;
+        padding-top: 50vh !important;
+        padding-bottom: 10vh !important;
+        background: rgb(79,145,202) !important;
+        background: linear-gradient(4deg, rgba(79,145,202,1) 0%, rgba(73,213,187,1) 100%) !important;
+    }
+
+    #hiddensprout{
+        visibility: visible;
+    }
+    header h1{
+        font-size: 40px !important;
+        margin-bottom: 0px !important;
+    }
+    header p{
+        font-size: 12px !important;
+    }
+    
+    main{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    #inline-list ul li{
+        display: inline;
+        margin-right: 4vh !important;
+        margin-left: 4vh !important;
+        font-family: "Poppins";
+        font-weight: bold;
+        
+    }
+
+    #inline-list{
+        display: none;
+    }
+    #dropdown{
+        display: block;
+        position: absolute;
+        background-color: white;
+        z-index: 99;
+    }
+    .dropbutton{
+        visibility: visible !important;
+        animation: 2s fadeIn !important;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        visibility: visible !important;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+
+    .timeline-box{
+        width: 30vh !important;
+        margin: 5px !important;
+    }
+    
+    .timeline-span{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 12px;
+    }
+
+    .typewriter h1{
+        margin-top: -2vh !important;
+    }
+
+    .panel ul li{
+        font-size: 14px !important;
+        margin-bottom: 2vh !important;
+    }
+
+    #sprout{
+        letter-spacing: -6px !important;
+    }
+
+    .timeline{
+        max-width: 95vw !important;
+    }
+
+    
+
+}
+html, body{
+   
+    margin: 0px !important;
+    margin-top: 0px !important;
+    display: block;
+    
+}
+
+header{
+    font-family: "Poppins";
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+
+.icon{
+    margin-top: 20vh;
+    width: 50px;
+    height: 50px;
+}
+header h1{
+    font-size: 80px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    z-index: 1;
+}
+header p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#banner{
+    background: rgb(79,145,202);
+    background: linear-gradient(93deg, rgba(79,145,202,1) 0%, rgba(73,213,187,1) 100%);
+    height: 60vh;
+    background-size: 100%;
+    background-position: center;
+    min-width: 100% !important;
+    margin-top: -40px !important;
+    z-index: 0;
+    background-repeat: no-repeat;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+main{
+    text-align: justify;
+    font-family: Poppins;
+    margin-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#content{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 20px;
+}
+
+.accordion{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-size: 18px;
+    padding: 15px;
+    font-family: "Poppins";
+    float: center;
+}
+
+.active, .accordion:hover{
+    background: rgb(73,213,187);
+background: linear-gradient(90deg, rgba(73,213,187,1) 0%, rgba(79,145,202,1) 100%);
+}
+
+.panel{
+    padding: 0 20px;
+    float: center;
+    max-height: 0;
+    background-color: rgb(223, 222, 222);
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+  .typewriter {
+
+    overflow: hidden;
+    white-space: nowrap; 
+    border-right: .15em solid white;
+    margin: 0 auto; 
+    letter-spacing: 5px; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: white; }
+  }
+.fade{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+footer{
+    background: rgb(79,145,202);
+    background: linear-gradient(93deg, rgba(79,145,202,1) 0%, rgba(73,213,187,1) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: "Poppins";
+    margin-top: 30px;
+}
+
+.sticky-header{
+    display: inline;
+    background-color:white;
+    z-index: 1;
+    min-width: 100%;
+    height: 8vh;
+    position: fixed;
+    padding-top: 35px;
+
+}
+
+
+
+#inline-list ul{
+    display: table;
+    margin: 0 auto;
+    margin-top: 2.5vh;
+}
+
+#inline-list ul li{
+    display: inline;
+    margin-right: 4vh;
+    margin-left: 4vh;
+    font-family: "Poppins";
+    font-weight: normal;
+    
+}
+
+#inline-list ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#inline-list ul li a:hover{
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+.dropbutton{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Poppins";
+    margin-bottom: 0px !important;
+    visibility: hidden;
+    float: left;
+    margin-top: 10vh;
+    margin-right: 1vh;
+    margin-left: 80%;
+    min-width: 8vh;
+    min-height: 8vh;
+}
+
+.dropbutton:hover, .dropbutton:focus{
+    background-color: #c2c2c2;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 6vh;
+    border-radius: 10px;
+    z-index: 1;
+    float: right;
+    margin-top: 20vh;
+    margin-left: 65%;
+}
+
+.dropdown-content a{
+    color: black;
+    font-family: "Poppins";
+    display: block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -3vh;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+#sprout{
+    letter-spacing: -13px;
+}
+.show{
+    display: block;
+}
+
+.timeline{
+    max-width: 50vw;
+}
+em{
+    font-weight: bold;
+}
+
+.fa-home{
+    color: black;
+}
+
+.socmed-images{
+    display: inline;
+    margin: 1vw;
+}
+
+.socmed-images:hover{
+    color:#777
+}
+
