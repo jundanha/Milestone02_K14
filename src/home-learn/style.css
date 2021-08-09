@@ -17,11 +17,25 @@ body {
 }
 
 .logo a {
-    font-size: 96px;
+    position: absolute;
+    font-size: 85px;
     font-weight: bold;
     float: left;
     font-family: Kanit;
+    font-style: normal;
+    line-height: 144px;
     color: #180E43;
+}
+
+.logo em {
+  position: absolute;
+  font-size: 85px;
+  font-weight: bold;
+  float: left;
+  font-family: Kanit;
+  font-style: normal;
+  line-height: 144px;
+  color: #bc5064;
 }
 
 .menu {
@@ -32,7 +46,7 @@ nav {
     width: 100%;
     margin: auto;
     display: flex;
-    line-height: 80px;
+    line-height: 144px;
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
@@ -54,12 +68,87 @@ nav ul li {
 
 nav ul li a {
     color: #180E43;
-    font-weight: 300;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44.85px;
     text-align: center;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 14px 0px 14px;
     text-decoration: none;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  position: absolute;
+}
+
+section img {
+  margin: auto;
+  width: 450px;
+  height: 480px;
+  top: auto;
+  display: flex;
+  float: right;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .judul {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Kanit;
+  font-style: normal;
+  margin-bottom: 20px;
+  color: #180e43;
+}
+
+.kolom .judul em {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Kanit;
+  font-style: normal;
+  color: #bc5064;
+}
+
+.kolom .deskripsi {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  top: 50px;
+  text-align: justify;
+  width: 100%;
+  color: #000000;
+}
+
+a.tbl-biru {
+  float: left;
+  background: #180e43;
+  border-radius: 100px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #bc5064;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
