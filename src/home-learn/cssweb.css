@@ -1,5 +1,4 @@
 .jumbotron {
-  padding: 2 rem 1 rem;
   background-color: white;
 }
 
@@ -48,3 +47,6 @@ p {
   color: #bc5064;
 }
 
+#contact_us {
+  background-color: white;
+}
