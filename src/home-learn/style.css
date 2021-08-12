@@ -133,11 +133,12 @@ section img {
 a.tbl-biru {
   float: left;
   background: #180e43;
-  border-radius: 100px;
-  padding: 15px 20px 15px 20px;
+  border-radius: 20px;
+  padding: 15px 100px 15px 100px;
   color: #ffffff;
   cursor: pointer;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 a.tbl-biru:hover {
