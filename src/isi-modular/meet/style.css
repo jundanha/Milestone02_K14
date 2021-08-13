@@ -5,34 +5,54 @@
   background-color:  #180E43;
 }
 
+
 .button {
     background-color: #BC5064;
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 1.8vw;
-    height: 5vw;
-    width: 20vw;
+    display: block;
+    font-size: 1.5vw;
+    height: 3.5vw;
+    width: 10vw;
     border-radius: 10vw;
-    font: roboto;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
     margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left:auto;
+    margin-right: auto;
   }
 
 body button:hover {
   transform: scale(1.08);
 }
 
+.judulmeet {
+  text-align: center;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+}
 
 .lingkaran {
-  width: 20vw;
-  height: 20vw;
+  width: 17vw;
+  height: 17vw;
   border-radius: 50%;
   overflow: hidden;
   background-color:white;
-  display:inline-block;
-  vertical-align:middle;
+  display: block;
   margin: auto;
   margin-bottom: 1vw;
+}
+
+.box {
+  width:20vw;
+  height: auto;
+  background-color: white;
+  border-radius: 2vw;
+  padding-top: 1.5vw;
+  padding-bottom: 0.1vw;
 }
