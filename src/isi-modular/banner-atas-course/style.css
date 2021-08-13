@@ -1,0 +1,29 @@
+.semester{
+    font-weight: bold;
+}
+
+.tombolbuku{
+    margin-bottom: 10px;
+}
+
+.tombolbuku button{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: #180e43;
+    color: white;
+    padding: 5px;
+}
+
+.tombolbuku img{
+    width: 5%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.tombolbuku button:hover{
+    border: 100px;
+    border-color: #bc5064;
+}
