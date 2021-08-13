@@ -1,36 +1,38 @@
 .container {
-  width: 220px;
+  width: 20vw;
   height: auto;
   padding: 10px;
+  background-color:  #180E43;
 }
 
 .button {
     background-color: #BC5064;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    height: 50px;
-    width: 200px;
-    border-radius: 32px;
+    font-size: 1.8vw;
+    height: 5vw;
+    width: 20vw;
+    border-radius: 10vw;
     font: roboto;
-    margin-left: 10px;
+    margin-top: 1vw;
   }
 
 body button:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
+
 .lingkaran {
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #180E43;
+  background-color:white;
   display:inline-block;
   vertical-align:middle;
-  margin: 10px;
+  margin: auto;
+  margin-bottom: 1vw;
 }
