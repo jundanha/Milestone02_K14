@@ -91,6 +91,8 @@ main{
     padding: 15px;
     font-family: "Poppins";
     float: center;
+    border-radius: 10px;
+    margin-top: 1em;
 }
 
 .active, .accordion:hover{
@@ -105,6 +107,8 @@ main{
     display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    border-radius:10px;
+    margin-bottom: 1em;
 }
 
 .accordion:after {
