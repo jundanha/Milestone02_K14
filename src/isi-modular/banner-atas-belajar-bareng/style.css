@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+h1 em{
+    color: #bc5064;
+    font-style: normal;
+}
+
+.smaller-image{
+    width: 500px;
+}
