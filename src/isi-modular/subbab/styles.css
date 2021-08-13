@@ -97,6 +97,7 @@ main{
 
 .active, .accordion:hover{
     background: rgb(188,80,100);
+    color : #F9F9F9
 }
 
 .panel{
