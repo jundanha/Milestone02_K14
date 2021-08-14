@@ -1,0 +1,41 @@
+.semester{
+    font-weight: bold;
+    color:#180e43;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.display-4 {
+    font-weight: bolder;
+    font-size: 64px;
+    font-family: 'Kanit';
+    color: #bc5064;
+    padding-top: 0px;
+}
+
+.tombolbuku{
+    margin-bottom: 10px;
+}
+
+.tombolbuku button{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: #180e43;
+    color: white;
+    padding: 5px;
+}
+
+.tombolbuku img{
+    width: 5%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.tombolbuku button:hover{
+    border: 100px;
+    border-color: #bc5064;
+}
