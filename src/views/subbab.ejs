@@ -4,24 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <div id = "content">
-        <div id = "pre-event" style="margin-bottom: 100px;">
-          <% matkul.subbab.forEach(sbb => { %>
-            <button class="accordion"><em> <%= sbb.nama %> </em></button>
-            <div class="panel">
-              <ul>
-                 <% sbb.materi.forEach(mtr => { %>
-                  <li style=color:#191919><em>1. <a style=color:#191919 href="google.com" target="_blank"><%= mtr.nama %> </a></p>
-                    <%})%>
-              </ul>
-            </div>
-          <% }) %>
-        </div>
-    </div>
+    <main>
+      <div>
+        <div id = "content">
+          <div id = "pre-event" style="margin-bottom: 100px;">
+            <% matkul.subbab.forEach(sbb => { %>
+              <button class="accordion"><em> <%= sbb.nama %> </em></button>
+              <div class="panel">
+                <ul>
+                   <% sbb.materi.forEach(mtr => { %>
+                    <li style=color:#191919><em>1. <a style=color:#191919 href="google.com" target="_blank"> <%= mtr.nama %> </a></p>
+                      <%})%>
+                </ul>
+              </div>
+            <% }) %>
+          </div>
+      </div>
+    </main>
     
   </body>
 
@@ -68,7 +73,6 @@
   </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
 
 @media screen and (max-width: 1000px){
 
