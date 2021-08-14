@@ -6,6 +6,8 @@ var path = require('path');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+app.use( express.static( "public" ) );
+
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/home.html')
