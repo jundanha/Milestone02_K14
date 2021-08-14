@@ -50,16 +50,11 @@ const dataLokal = {
   },
 };
 app.get('/:matkul', (req, res) => {
-  res.render(__dirname + '/views/', {
-    matkul: data['ttki'],
+  res.render(__dirname + '/views/matkul', {
+    matkul: data[req.params.matkul],
   });
 });
 
-app.get('/matkul', (req, res) => {
-    res.render(__dirname + '/views/matkul', {
-        matkul: data['ttki'],
-    })
-})
 
 app.listen(3000, () => {
   console.log('Server aktif');
