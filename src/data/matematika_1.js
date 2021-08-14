@@ -7,10 +7,10 @@ module.exports = {
                 materi: [
                     {nama: "Bilangan Real", link:"#"},
                     {nama: "Pertaksamaan dan Nilai Mutlak", link:"#"},
-                    {nama: "Sistem Koordinat", link:"#"}
-                    {nama: "Grafik Persamaan", link:"#"}
-                    {nama: "Fungsi dan Grafiknya", link:"#"}
-                    {nama: "Operasi pada Fungsi", link:"#"}
+                    {nama: "Sistem Koordinat", link:"#"},
+                    {nama: "Grafik Persamaan", link:"#"},
+                    {nama: "Fungsi dan Grafiknya", link:"#"},
+                    {nama: "Operasi pada Fungsi", link:"#"},
                     {nama: "Fungsi Trigonometri", link:"#"}
                 ]
             },
@@ -33,8 +33,8 @@ module.exports = {
                     {nama: "Turunan Fungsi Trigonometri", link:"#"},
                     {nama: "Aturan Rantai", link:"#"},
                     {nama: "Turunan Tingkat Tinggi", link:"#"},
-                    {nama: "Turunan Implisit", link:"#"}
-                    {nama: "Laju yang Berkaitan", link:"#"}
+                    {nama: "Turunan Implisit", link:"#"},
+                    {nama: "Laju yang Berkaitan", link:"#"},
                     {nama: "Diferensial dan Hampiran", link:"#"}
                 ]
             },
