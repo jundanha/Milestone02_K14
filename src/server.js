@@ -6,11 +6,17 @@ var path = require('path');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+app.use( express.static( "public" ) );
+
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/views/home.html')
+})
 
 const meet = [[1,2,3],[2,3]]
-app.get('/', (req, res) => {
-    res.render(__dirname+ '/views/contoh', {
-        namas: meet
+app.get('/meet', (req, res) => {
+    res.render(__dirname+ '/views/meet', {
+        meets: meet
     });
 });
 const data = {
@@ -29,7 +35,7 @@ const data = {
                 materi: [{nama: 'Kata baku non esensial', link:'youtube.com/sasasa atau drive atau pdf atau quiziz'},{nama:'Kata baku esensial', link:'youtube.com/asasafd'}]
             },
             {
-    
+            
             }
         ]
     },
