@@ -3,7 +3,7 @@ module.exports = {
         files: [{nama: "Calculus, 9th Edition, Purcell et al", link: "#"}]
         subbab: [
             {
-                nama: "Pendahuluan"
+                nama: "Pendahuluan",
                 materi: [
                     {nama: "Bilangan Real", link:"#"},
                     {nama: "Pertaksamaan dan Nilai Mutlak", link:"#"},
@@ -15,7 +15,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Limit"
+                nama: "Limit",
                 materi: [
                     {nama: "Pengantar limit", link:"#"},
                     {nama: "Limit Fungsi", link:"#"},
@@ -26,7 +26,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Turunan"
+                nama: "Turunan",
                 materi: [
                     {nama: "Turunan", link:"#"},
                     {nama: "Aturan Penentuan Turunan", link:"#"},
@@ -39,7 +39,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Penggunaan Turunan"
+                nama: "Penggunaan Turunan",
                 materi: [
                     {nama: "Maksimum dan Minimum", link:"#"},
                     {nama: "Kemonotonan dan Kecekungan", link:"#"},
@@ -52,7 +52,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Integral"
+                nama: "Integral",
                 materi: [
                     {nama: "Luas Daerah", link:"#"},
                     {nama: "Integral Tentu", link:"#"},
@@ -63,7 +63,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Penggunaan Integral"
+                nama: "Penggunaan Integral",
                 materi: [
                     {nama: "Luas Daerah pada Bidang", link:"#"},
                     {nama: "Volume Benda Putar: Metode Cakram, Cincin, dan Irisan Sejajar", link:"#"},
@@ -72,7 +72,7 @@ module.exports = {
                 ]
             },
             {
-                nama: "Fungsi Transenden"
+                nama: "Fungsi Transenden",
                 materi: [
                     {nama: "Fungsi Logaritma Natural", link:"#"},
                     {nama: "Fungsi Invers dan Turunannya", link:"#"},
