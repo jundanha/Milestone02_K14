@@ -11,9 +11,6 @@ module.exports = {
                 nama: "Kata Baku",
                 materi: [{nama: 'Kata baku non esensial', link:'youtube.com/sasasa atau drive atau pdf atau quiziz'},{nama:'Kata baku esensial', link:'youtube.com/asasafd'}]
             },
-            {
-    
-            }
         ]
     }
 }
