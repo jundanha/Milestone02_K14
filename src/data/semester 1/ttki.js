@@ -36,12 +36,12 @@ module.exports = {
                 materi: [{nama: 'Komponen pelengkap awal', link:''},{nama:'Kompoonen isi', link:''}, {nama: 'Komponen pelengkap akhir', link:''}]
             },
             {
-                nama: "Komponen Karangan",
-                materi: [{nama: 'Jenis keplagiatan', link:''},{nama:'Pencegahan keplagiatan', link:''}]
+                nama: "Bagian Utama Karangan",
+                materi: [{nama: 'Bab pendahuluan', link:''},{nama:'Bab permasalahan', link:''},{nama:'Bab analisis', link:''},{nama:'Bab simpulan dan saran', link:''}]
             },
             {
-                nama: "Komponen Karangan",
-                materi: [{nama: 'Jenis keplagiatan', link:''},{nama:'Pencegahan keplagiatan', link:''}]
+                nama: "Konvensi Naskan",
+                materi: [{nama: 'Pengetikan', link:''},{nama:'Tipografi', link:''},{nama:'Pengutipan', link:''},{nama:'Pustaka', link:''}]
             }
         ]
     }
