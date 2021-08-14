@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Meet</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Kanit Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&dislay=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sm">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="
+            font-size: 72px;
+            font-weight: bolder;
+            font-family: 'Kanit';
+            color: #180e43;
+          "
+          >ACADE<em>STEI</em></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="font-size: 24px; font-family: 'Roboto'"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="font-size: 24px; font-family: 'Roboto'"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="font-size: 24px; font-family: 'Roboto'"
+                >Rooms</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="font-size: 24px; font-family: 'Roboto'; color: #bc5064"
+                >About us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar-->
+
+    <!-- Jumbotron -->
+    <!-- Banner atas -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1
+            class="display-4"
+            style="
+              font-weight: bolder;
+              font-family: 'Kanit';
+              color: #180e43;
+              font-size: 75px;
+              line-height: 35px;
+            "
+          >
+            BELAJAR <em>BARENG</em>
+          </h1>
+          <h1
+            class="display-4"
+            style="
+              font-weight: bolder;
+              font-family: 'Kanit';
+              color: #180e43;
+              font-size: 75px;
+            "
+          >
+            KUY!
+          </h1>
+          <p
+            class="lead"
+            style="font-family: 'Trebuchet MS'; text-align: justify"
+          >
+            Kami membantu kalian dengan menyediakan beragam fitur pembelajaran
+            khususnya untuk TPB STEI! Kami berharap kalian bisa memanfaatkannya
+            dengan baik agar dapat lulus TPB dengan hasil yang maksimal!
+          </p>
+        </div>
+        <div class="col text-center">
+          <img src="img/cewek.jpg" alt="home" width="580px" height="550px" />
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Banner atar-->
+
+    <!-- Coba wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#180e43"
+        fill-opacity="1"
+        d="M0,96L60,112C120,128,240,160,360,186.7C480,213,600,235,720,224C840,213,960,171,1080,154.7C1200,139,1320,149,1380,154.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- Akhir Jumbotron -->
+
+    <!-- Meets -->
+
+    <div style="background-color: #180e43">
+      <% meets.forEach(meet => { %>
+      <div class="row">
+        <div class="col">
+          <div class="container-meet">
+            <div class="lingkaran">
+              <img />
+            </div>
+            <div class="box">
+              <div class="judulmeet">Fisika Dasar IA</div>
+              <button class="button-meet">Gabung!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="container-meet">
+            <div class="lingkaran">
+              <img />
+            </div>
+            <div class="box">
+              <div class="judulmeet">Fisika Dasar IA</div>
+              <button class="button-meet">Gabung!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="container-meet">
+            <div class="lingkaran">
+              <img />
+            </div>
+            <div class="box">
+              <div class="judulmeet">Fisika Dasar IA</div>
+              <button class="button-meet">Gabung!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+</html>
+
+<style>
+  .navbar-brand em {
+    font-weight: bold;
+    font-family: Kanit;
+    font-style: normal;
+    line-height: 90px;
+    color: #bc5064;
+  }
+
+  .display-4 em {
+    font-weight: bold;
+    font-family: Kanit;
+    font-style: normal;
+    color: #bc5064;
+  }
+
+  .container-meet {
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    background-color: #180e43;
+  }
+
+  .button-meet {
+    background-color: #bc5064;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5vw;
+    height: 3.5vw;
+    width: 10vw;
+    border-radius: 10vw;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body button:hover {
+    transform: scale(1.08);
+  }
+
+  .judulmeet {
+    text-align: center;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  .lingkaran {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 1vw;
+  }
+
+  .box {
+    width: 20vw;
+    height: auto;
+    background-color: white;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 0.1vw;
+  }
+</style>
