@@ -1,4 +1,4 @@
-.container {
+.container-meet {
   width: 20vw;
   height: auto;
   padding: 10px;
@@ -6,7 +6,7 @@
 }
 
 
-.button {
+.button-meet {
     background-color: #BC5064;
     border: none;
     color: white;
