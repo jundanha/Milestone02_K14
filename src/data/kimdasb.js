@@ -1,6 +1,8 @@
 module.exports = {
     kimdasb: 
     {
+        nama:'KIMIA DASAR B',
+        semester: 2,
         files: [
             {nama:'Buku Teks', link:'https://drive.google.com/drive/folders/0B-FCyeQT0LhoSjF2TGtnMXNTbkU?resourcekey=0-68gfGYMvcz0x7usaTySX-g&usp=sharing'},
             {nama: 'Slide Dosen', link:'https://drive.google.com/drive/folders/0B-FCyeQT0LhoSjF2TGtnMXNTbkU?resourcekey=0-68gfGYMvcz0x7usaTySX-g&usp=sharing'},
