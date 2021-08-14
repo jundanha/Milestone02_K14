@@ -22,7 +22,7 @@ app.get('/meet', (req, res) => {
 });
 const data = {
   ttki: {
-    nama: 'Tata tulis karya ilmiah',
+    nama: 'TATA TULIS KARYA ILMIAH',
     semester: 1,
     files: [
       { nama: 'Buku sakti', link: 'drive.com' },
@@ -52,6 +52,15 @@ app.get('/subbab', (req, res) => {
   });
 });
 
+app.get('/matkul', (req, res) => {
+    res.render(__dirname + '/views/matkul', {
+        matkul: data['ttki'],
+    })
+})
+
 app.listen(3000, () => {
   console.log('Server aktif');
 });
+
+
+

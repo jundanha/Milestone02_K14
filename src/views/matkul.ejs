@@ -1,76 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Bootstrap CSS -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <title>NAVBAR</title>
+  </head>
 
-    <title>ACADESTEI</title>
-</head>
-<body>
-    
-  <!-- Kanit Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&dislay=swap" rel="stylesheet"/>
+  <body style=text-decoration:none>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-  <!-- Roboto Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Kanit Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&dislay=swap" rel="stylesheet" />
 
-  <!-- Javascript bootstrap-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sm ">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style = "font-size: 72px ;font-weight: bolder; font-family: 'Kanit'; color: #180e43;">ACADE<em>STEI</em></a>
+    <!-- Roboto Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <!-- Navbar -->
+    <nav style='padding:0px' class="navbar navbar-expand-lg navbar-light bg-white shadow sm">
+      <div class="container padding">
+        <a class="navbar-brand" href="#" style="font-size: 56px; font-weight: bolder; font-family: 'Kanit'; color: #180e43">ACADE<em>STEI</em></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div style=margin:0px style='padding:0px' class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" style = "font-size: 24px; font-family: 'Roboto'">Home</a>
+              <a class="nav-link active" aria-current="page" href="#" style="font-size: 24px; font-family: 'Roboto'">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="..\course-learn\index.html" style = "font-size: 24px; font-family: 'Roboto'">Courses</a>
+              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style = "font-size: 24px; font-family: 'Roboto'">Rooms</a>
+              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutus" style = "font-size: 24px; font-family: 'Roboto';color: #bc5064;">About us</a>
+              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'; color: #bc5064">About us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+    <!-- Akhir Navbar-->
+
   <!-- Jumbotron -->
   <br /><br />
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="semester"><%= matkul.semester></h2>
-        <h1 class="display-4"><%= matkul.nama %></h1>
+        <h2 class="semester">SEMESTER <%= matkul.semester%></h2>
+        <h1 class="ds-4"><%= matkul.nama %></h1>
         <% matkul.files.forEach(file => { %>
             <div class="tombolbuku">
-                <button><img src="img/book.png" alt="book"> <a href="<%= file.link %> "><h3><%= file.nama %> </h3></a></button>
+                <button><span><img src="./img/book.png" alt="book"></span> <a style=text-decoration:none ref="<%= file.link %> "><span><%= file.nama %></span></a></button>
             </div>
-            <div class="tombolbuku">
-                <button><img src="img/book.png" alt="book"> <a href="<%= file.link %> "><h3><%= file.nama %></button>
-            </div>
+        <%})%>
       </div>
       <div class="col text-center">
-        <img src="../banner-atas-course/img/belajar.png" alt="belajar" width="580px" height="550px" />
+        <img src="./img/belajar.png" alt="belajar" width="580px" height="550px" />
       </div>
     </div>
   </div>
 
-
-  <!-- Akhir Jumbotron -->
-  <br><br><br><br><br><br><br><br>
+  <main>  
+    <div>
+        <div id = "content">
+            <div id = "pre-event" style="margin-bottom: 100px;">
+            <% matkul.subbab.forEach(sbb => { %>
+                <button class="accordion"><em> <%= sbb.nama %> </em></button>
+                <div class="panel">
+                <ul>
+                    <% sbb.materi.forEach(mtr => { %>
+                    <li style=color:#191919><em><a style=text-decoration:none style=color:#191919 href="google.com" target="_blank"> <%= mtr.nama %> </a></p>
+                        <%})%>
+                </ul>
+                </div>
+            <% }) %>
+            </div>
+        </div>
+    </main> 
 </body>
+
+</html>
+
+<script>
+    var accordion = document.getElementsByClassName('accordion');
+    var em;
+
+    for (em = 0; em < accordion.length; em++) {
+      accordion[em].addEventListener('click', function () {
+        this.classList.toggle('aktif');
+
+        var panel = this.nextElementSibling;
+
+        if (panel.style.display === 'block') {
+          panel.style.display = 'none';
+        } else {
+          panel.style.display = 'block';
+        }
+
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+      });
+    }
+
+    function testFunc() {
+      document.getElementById('menuDropdown').classList.toggle('show');
+    }
+
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbutton')) {
+        var dropdowns = document.getElementsByClassName('dropdown-content');
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropDown = dropdowns[i];
+          if (openDropDown.classList.contains('show')) {
+            openDropDown.classList.remove('show');
+          }
+        }
+      }
+    };
+  </script>
+
+<style>
+.padding {
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+.semester{
+font-weight: bold;
+color:#180e43;
+margin-bottom: 0px;
+padding-bottom: 0px;
+
+}
+
+.ds-4 {
+    font-weight: bolder;
+    font-size: 64px;
+    font-family: 'Kanit';
+    color: #bc5064;
+    padding-top: 0px;
+}
+
+.tombolbuku{
+    margin-bottom: 10px;
+}
+
+.tombolbuku button{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: #180e43;
+    color: white;
+    padding: 5px;
+}
+
+.tombolbuku img{
+    width: 5%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.tombolbuku button:hover{
+    border: 100px;
+    border-color: #bc5064;
+}
+
+@media screen and (max-width: 1000px){
+
+#hiddensprout{
+    visibility: visible;
+}
+
+}
+header p{
+    font-size: 12px !important;
+}
+
+main{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+#inline-list ul li{
+    display: inline;
+    margin-right: 4vh !important;
+    margin-left: 4vh !important;
+    font-family: "Poppins";
+    font-weight: bold;
+    
+}
+
+#inline-list{
+    display: none;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.typewriter h1{
+    margin-top: -2vh !important;
+}
+
+.panel ul li{
+    font-size: 14px !important;
+    margin-bottom: 2vh !important;
+}
+
+html, body{
+
+margin: 0px !important;
+margin-top: 0px !important;
+display: block;
+
+}
+
+header p{
+font-size: 20px;
+font-weight: bold;
+}
+
+
+main{
+text-align: justify;
+font-family: Poppins;
+margin-top: 50px;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+
+#content{
+padding-left: 5%;
+padding-right: 5%;
+padding: 20px;
+}
+
+.accordion{
+display: block;
+background-color: #bc5064;
+color: #fff;
+cursor: pointer;
+width: 85%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.5s;
+font-size: 18px;
+padding: 15px;
+font-family: "Poppins";
+float: center;
+border-radius: 10px;
+margin-top: 1em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.aktif, .accordion:hover{
+background: #180e43;
+color : #F9F9F9
+}
+
+.panel{
+width: 85%;
+padding: 0 20px;
+float: center;
+max-height: 0;
+background-color: rgb(223, 222, 222);
+display: none;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+border-radius:10px;
+margin-bottom: 1em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.accordion:after {
+content: '\02795'; 
+font-size: 13px;
+color: #f9f9f9;
+float: right;
+margin-left: 5px;
+}
+
+.aktif:after {
+content: "\2796";
+}
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+from, to { border-color: transparent }
+100% { border-color: white; }
+}
+
+.fade{
+animation: 2s fadeIn;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+visibility: hidden;
+}
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    visibility: visible;
+    opacity: 1;
+}
+}
+
+#inline-list ul{
+display: table;
+margin: 0 auto;
+margin-top: 2.5vh;
+}
+
+#inline-list ul li{
+display: inline;
+margin-right: 4vh;
+margin-left: 4vh;
+font-family: "Poppins";
+font-weight: normal;
+
+}
+
+#inline-list ul li a{
+color: black;
+text-decoration: none;
+}
+
+#inline-list ul li a:hover{
+color: rgb(116, 116, 116);
+font-weight: bold;
+transition: all ease 0.3s;
+}
+
+em{
+font-weight: bold;
+}
+
+.navbar-brand em {
+  font-weight: bold;
+  font-family: Kanit;
+  font-style: normal;
+  line-height: 90px;
+  color: #bc5064;
+}
+
+.display-4 em {
+  font-weight: bold;
+  font-family: Kanit;
+  font-style: normal;
+  color: #bc5064;
+}
+
+</style>
+
 </html>
