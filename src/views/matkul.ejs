@@ -60,12 +60,12 @@
         <h1 class="ds-4"><%= matkul.nama %></h1>
         <% matkul.files.forEach(files => { %>
             <div class="tombolbuku textlink">
-                <button><span><img src="./img/book.png" alt="book"></span> <a style=text-decoration:none, href=<%= files.link %> target="_blank" ><span><%= files.nama %></span></a></button>
+                <button><span><img src="../img/book.png" alt="book"></span> <a style=text-decoration:none, href=<%= files.link %> target="_blank" ><span><%= files.nama %></span></a></button>
             </div>
         <%})%>
       </div>
       <div class="col text-center">
-        <img src="./img/belajar.png" alt="belajar" width="580px" height="550px" />
+        <img src="../img/belajar.png" alt="belajar" width="580px" height="550px" />
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
                 <div class="panel">
                 <ul>
                     <% sbb.materi.forEach(mtr => { %>
-                    <li style=color:#191919><em><a style=text-decoration:none style=color:#191919 href="google.com" target="_blank"> <%= mtr.nama %> </a></p>
+                    <li style=color:#191919><em><a style=text-decoration:none style=color:#191919 href=<%= mtr.link %> target="_blank"> <%= mtr.nama %> </a></p>
                         <%})%>
                 </ul>
                 </div>
@@ -238,6 +238,7 @@ main{
     font-size: 14px !important;
     margin-bottom: 2vh !important;
     padding-top: 2px !important;
+    margin-top: 2vh;
 }
 
 html, body{
