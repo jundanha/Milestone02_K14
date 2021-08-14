@@ -25,11 +25,12 @@ app.get('/meet', (req, res) => {
 });
 const dataLokal = {
   ttki: {
-    nama: 'TATA TULIS KARYA ILMIAH',
+    nama: 'KIMIA DASAR B',
     semester: 1,
     files: [
-      { nama: 'Buku sakti', link: 'drive.com' },
-      { nama: 'Buku besar', link: 'sipsipsip' },
+      {nama:'Buku Teks', link:'https://drive.google.com/drive/folders/0B-FCyeQT0LhoSjF2TGtnMXNTbkU?resourcekey=0-68gfGYMvcz0x7usaTySX-g&usp=sharing'},
+      {nama:'Slide Dosen', link:'https://drive.google.com/drive/folders/0B-FCyeQT0LhoSjF2TGtnMXNTbkU?resourcekey=0-68gfGYMvcz0x7usaTySX-g&usp=sharing'},
+      {nama:'Soal-Soal Latihan', link:'https://drive.google.com/drive/folders/0B-FCyeQT0LhoWlFwbElKLVZodms?resourcekey=0-jcs1suIVEoEC1V_MSXQt4Q'}
     ],
     subbab: [
       {
