@@ -3,6 +3,9 @@ const app = express();
 let ejs = require('ejs');
 var path = require('path');
 
+//import file
+const data = require('./data/index')
+
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
@@ -20,7 +23,7 @@ app.get('/meet', (req, res) => {
     meets: meet,
   });
 });
-const data = {
+const dataLokal = {
   ttki: {
     nama: 'KIMIA DASAR B',
     semester: 1,
@@ -47,17 +50,12 @@ const data = {
     ],
   },
 };
-app.get('/subbab', (req, res) => {
-  res.render(__dirname + '/views/subbab', {
-    matkul: data['ttki'],
+app.get('/:matkul', (req, res) => {
+  res.render(__dirname + '/views/matkul', {
+    matkul: data[req.params.matkul],
   });
 });
 
-app.get('/matkul', (req, res) => {
-    res.render(__dirname + '/views/matkul', {
-        matkul: data['ttki'],
-    })
-})
 
 app.listen(3000, () => {
   console.log('Server aktif');
