@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 let ejs = require('ejs');
 var path = require('path');
+const fs = require('fs');
+
+// var fileMeet = fs.readFile(__dirname + '/data/meet.json');
+// var dataMeet = JSON.parse(fileMeet);
 
 //import file
 const data = require('./data/index')
@@ -50,7 +54,7 @@ const dataLokal = {
     ],
   },
 };
-app.get('/:matkul', (req, res) => {
+app.get('/matkul/:matkul', (req, res) => {
   res.render(__dirname + '/views/matkul', {
     matkul: data[req.params.matkul],
   });
