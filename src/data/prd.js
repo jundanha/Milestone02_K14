@@ -1,5 +1,5 @@
 module.exports = {
-    PRD : 
+    prd : 
     {    
         semester: 2,
         files: [],
