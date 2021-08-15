@@ -163,41 +163,23 @@
     <div style="background-color: #180e43">
       <% meets.forEach(meet => { %>
       <div class="row">
-        <div class="col">
-          <div class="container-meet">
-            <div class="lingkaran">
-              <img />
-            </div>
-            <div class="box">
-              <div class="judulmeet">Fisika Dasar IA</div>
-              <button class="button-meet">Gabung!</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="container-meet">
-            <div class="lingkaran">
-              <img />
-            </div>
-            <div class="box">
-              <div class="judulmeet">Fisika Dasar IA</div>
-              <button class="button-meet">Gabung!</button>
+        <% meet.forEach(mt => {%>
+          <div class="col" style="margin-right: auto; margin-left: auto;">
+            <div class="container-meet">
+              <div class="lingkaran">
+                <img />
+              </div>
+              <div class="box">
+                <div>
+                  <div class="matkulmeet"><%= mt.matkul %> </div>
+                  <div class="judulmeet"><%= mt.judul %> </div>
+                  <div class="jammeet"><%= mt.jam %> </div>
+                </div>
+                <button class="button-meet" href=<%= mt.link %> >Gabung!</button>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col">
-          <div class="container-meet">
-            <div class="lingkaran">
-              <img />
-            </div>
-            <div class="box">
-              <div class="judulmeet">Fisika Dasar IA</div>
-              <button class="button-meet">Gabung!</button>
-            </div>
-          </div>
-        </div>
+       <% }) %> 
       </div>
       <% }) %>
     </div>
@@ -229,7 +211,7 @@
     width: 18vw;
     height: auto;
     padding: 10px;
-    background-color: red;
+    background-color:#180e43;
   }
 
   .button-meet {
@@ -263,6 +245,20 @@
     font-size: 1.9vw;
   }
 
+  .matkulmeet {
+    text-align: center;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+  }
+  .jammeet {
+    text-align: center;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 0.8vw;
+  }
   .lingkaran {
     width: 13vw;
     height: 13vw;
@@ -283,5 +279,8 @@
     padding-bottom: 0.1vw;
     margin-left: auto;
     margin-right: auto;
+    max-width:16vw;
+    height: 12vw;
+    max-height: 14vw;
   }
 </style>

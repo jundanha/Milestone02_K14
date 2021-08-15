@@ -3,6 +3,7 @@ const app = express();
 let ejs = require("ejs");
 var path = require("path");
 const fs = require("fs");
+const data = require('./data/index')
 
 // var fileMeet = fs.readFile(__dirname + '/data/meet.json');
 // var dataMeet = JSON.parse(fileMeet);

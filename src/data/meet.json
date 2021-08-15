@@ -1,13 +1,25 @@
 {
     "meet": [
         {
-            "matkul":"matematika1",
+            "matkul":"Matematika 1",
             "judul":"Bosen niee mending ke siniii",
             "link":"https://meet.google.com/wiv-vnri-rcb",
             "jam": "12.00"
         },
         {
-            "matkul":"ttki",
+            "matkul":"TTKI",
+            "judul":"Apa baeee",
+            "link":"https://meet.google.com/wiv-vnri-rcb",
+            "jam": "14.00"
+        },
+        {
+            "matkul":"TTKI",
+            "judul":"Apa baeee",
+            "link":"https://meet.google.com/wiv-vnri-rcb",
+            "jam": "14.00"
+        },
+        {
+            "matkul":"TTKI",
             "judul":"Apa baeee",
             "link":"https://meet.google.com/wiv-vnri-rcb",
             "jam": "14.00"
