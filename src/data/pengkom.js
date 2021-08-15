@@ -45,6 +45,21 @@ module.exports = {
                     {nama: "Pengenalan", link: "https://drive.google.com/file/d/1lH0PplBq9JA8LoDPoX9bBKKInhsj1Qmy/view"},
                 ]
 
+            },
+            {
+                nama: "Praktikum",
+                materi: [
+                    {nama: "Tugas Pendahuluan praktikum 1", link: "https://drive.google.com/drive/u/0/folders/1QHipr_0C4LLC5ys_WhPXJlQ7_hfsZZ7M"},
+                    {nama: "praktikum 1", link: "https://drive.google.com/drive/u/0/folders/1ybdi5T5YB6pE7qXMZ4Q1ebWkMT3u_fjn"},
+                    {nama: "Tugas Pendahuluan praktikum 2", link: "https://drive.google.com/drive/u/0/folders/1QHipr_0C4LLC5ys_WhPXJlQ7_hfsZZ7M"},
+                    {nama: "praktikum 2", link: "https://drive.google.com/drive/u/0/folders/1ybdi5T5YB6pE7qXMZ4Q1ebWkMT3u_fjn"},
+                    {nama: "Tugas Pendahuluan praktikum 3", link: "https://drive.google.com/drive/u/0/folders/1QHipr_0C4LLC5ys_WhPXJlQ7_hfsZZ7M"},
+                    {nama: "praktikum 3", link: "https://drive.google.com/drive/u/0/folders/1ybdi5T5YB6pE7qXMZ4Q1ebWkMT3u_fjn"},
+                    {nama: "Tugas Pendahuluan praktikum 4", link: "https://drive.google.com/drive/u/0/folders/1QHipr_0C4LLC5ys_WhPXJlQ7_hfsZZ7M"},
+                    {nama: "praktikum 4", link: "https://drive.google.com/drive/u/0/folders/1ybdi5T5YB6pE7qXMZ4Q1ebWkMT3u_fjn"},
+                    {nama: "Tugas Pendahuluan praktikum 5", link: "https://drive.google.com/drive/u/0/folders/1QHipr_0C4LLC5ys_WhPXJlQ7_hfsZZ7M"},
+                    {nama: "praktikum 5", link: "https://drive.google.com/drive/u/0/folders/1ybdi5T5YB6pE7qXMZ4Q1ebWkMT3u_fjn"}
+                ]
             }
         ]
         
