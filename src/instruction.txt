@@ -1,0 +1,18 @@
+WANNA RUN THE APP???
+
+- INSTALL NODE JS
+-- Download from internet the setup of Node JS
+-- Install to your laptop
+
+- OPEN TERMINAL IN SRC FOLDER
+
+- INSTALL DEPENDENCIES IN THE TERMINAL
+-- npm install yarn
+-- npx yarn install
+
+- RUN THE APP
+-- yarn run nodemon
+
+- OPEN THE APP
+-- Open your browser
+-- Open http://localhost:3000
