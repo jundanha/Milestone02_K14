@@ -1,26 +1,27 @@
 module.exports = {
-    daspro: 
-    {
-        nama:'DASAR PEMROGRAMAN',
-        semester: 2,
-        files: [{nama:'Buku sakti', link:'drive.com'},{nama: 'Buku besar', link:'sipsipsip'}],
-        subbab: [
-            {
-                nama: "Konsep dan Lingkungan Pemrograman",
-                materi: [{nama: 'What is programming fundamentals concept?', link:''},{nama:'Programming tools and environment', link:''},{nama:'Peran bahasa pemrograman', link:''}]
-            },
-            {
-                nama: "Berpikir Abstrak dan Fungsional untuk Problem Solving",
-                materi: [{nama: 'Berpikir abstrak dan fungsional', link:''},{nama:'Pengantar rekurens', link:''},{nama:'Rekurens dan pemrograman fungsional: Operasi max dan min', link:''},{nama:'Rekurens dan pemrograman fungsional: ekspresi lambda', link:''}]
-            },
-            {
-                nama: "Berpikir Modular, Dekomposisi Modul, dan Pemrograman Prosedural",
-                materi: [{nama: 'Pengenalan pola', link:''},{nama:'Generalisasi pola untuk mendefinisikan abstraksi atau model', link:''},{nama:'Source code standards and best practices of programming', link:''},{nama:'Program taxonomy dan kemampuan programming yang dibutuhkan', link:''}]
-            },
-            {
-                nama: "Pemrograman Prosedural, Keterbatasan, serta Tantangan Memprogram",
-                materi: [{nama: 'Limit of Computing', link:''},{nama:'Kompleksitas dan program serta data skala besar', link:''}, {nama:'Program kompleks dan data besar', link:''}]
-            }
-        ]
-    }
-}
+  daspro: {
+    nama: "DASAR PEMROGRAMAN",
+    semester: 2,
+    files: [
+      { nama: "Diktat Pemrograman Fungsional", link: "https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3LURiZDN6ZUNNYmc?sort=13&direction=a&resourcekey=0-JZoOIiK1eKGdEjDDpvWZ1g" },
+      { nama: "Diktat Pemrograman Prosedural", link: "https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3cDhnVk9SbWRHSlk?sort=13&direction=a&resourcekey=0-FxlcxYwF21BsH_KFV_WGgA" },
+    ],
+    subbab: [
+      {
+        nama: "Prosedural",
+        materi: [
+          { nama: "Slide", link: "https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3UTBDQ1dLWENndms?sort=13&direction=a&resourcekey=0-U1PJTXgA9g3XHGlnl2-5xQ" },
+          { nama: "Soal", link: "https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3djJ2dTdDODRDLW8?sort=13&direction=a&resourcekey=0-nnx4f0BcqGIdV5-rBtB0cA" },
+          { nama: "PR", link: "https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3c2dSMUN0dFE2blU?sort=13&direction=a&resourcekey=0-ZAZkzbWDlEVC9phn4LnKeg" },
+        ],
+      },
+      {
+        nama: "Fungsional",
+        materi: [
+          { nama: "Slide", link: "https://drive.google.com/drive/folders/0B8pw4VeuQQy3N0ctbWpYRVV0dk0?resourcekey=0-U9IxQF7sT0M6DzmI_cT93g&usp=sharing" },
+          { nama: "Soal-soal", link: "https://drive.google.com/drive/folders/0B8pw4VeuQQy3YVhhNDZwTjRaQXc?resourcekey=0-LG8bh8ZdnYPRe8ttM78rxQ&usp=sharing" },
+        ],
+      },
+    ],
+  },
+};
