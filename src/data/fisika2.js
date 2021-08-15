@@ -1,5 +1,7 @@
 module.exports = {
-    fisika_2:{
+    fisika2:{
+        nama: "FISIKA IIA",
+        semester: 2,
         files: [{nama: "Halliday, D., Resnick, R., and Walker, J., Principle of Physics, 10th", link: "#"}],
         subbab: [
             {
