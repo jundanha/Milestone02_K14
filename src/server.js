@@ -39,8 +39,16 @@ app.get("/meet", (req, res) => {
     }
     return mam;
   }
+  function matkulForDropdown(data){
+    let hasil = [];
+    for (const [key, value] of Object.entries(data)) {
+      hasil.push(value.nama);
+    }
+    return hasil
+  }
   res.render(__dirname + "/views/meet", {
     meets: sliceIntoChunks(meets.meet, 3),
+    matkulForDropdown: matkulForDropdown(data)
   });
 });
 
@@ -58,6 +66,7 @@ app.get('/course', (req,res) => {
  */
 
 app.post("/api/tambahmeet", (req, res) => {
+  console.log("ada");
   const data = req.body;
   var today = new Date();
   var time = today.getHours() + ":" + today.getMinutes();
@@ -76,8 +85,9 @@ app.post("/api/tambahmeet", (req, res) => {
     }
     fs.writeFileSync("./data/meet.json", JSON.stringify(newMeets))
   }catch{
-    res.status(500).json({"message": "gagal menyimpan meet baru"})
+    res.status(500).json({message: "gagal menyimpan meet baru"})
   }
+  res.status(200).json({message:"success"})
 });
 
 /**
@@ -90,12 +100,16 @@ app.get("/matkul/:matkul", (req, res) => {
     res.render(__dirname + "/views/matkul404", {
       matkul: matkul,
     });
+  
   } else {
     res.render(__dirname + "/views/matkul", {
       matkul: data[matkul],
+     
     });
   }
 });
+
+
 
 /**
  * Server lies here
