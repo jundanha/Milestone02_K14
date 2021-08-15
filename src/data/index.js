@@ -7,6 +7,9 @@ const { matematika2} = require('./matematika2')
 const { olahraga } = require('./olahraga')
 const { prd } = require('./prd')
 const { pengkom } = require('./pengkom')
+const { fisika1 } = require('./fisika1')
+const { fisika2 } = require('./fisika2')
+
 
 module.exports = {
   ttki,
@@ -18,4 +21,6 @@ module.exports = {
   olahraga,
   prd,
   pengkom,
+  fisika1,
+  fisika2
 };
