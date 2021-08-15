@@ -1,9 +1,9 @@
 const { ttki } = require('./ttki');
 const { kimdasb } = require('./kimdasb');
-const { matematika_1 } = require('./matematika_1');
+const { matematika1 } = require('./matematika1');
 const { par } = require('./par');
 const { binggris } = require('./binggris');
-const { matematika_2} = require('./matematika_2')
+const { matematika2} = require('./matematika2')
 const { olahraga } = require('./olahraga')
 const { prd } = require('./prd')
 const { pengkom } = require('./pengkom')
@@ -11,10 +11,10 @@ const { pengkom } = require('./pengkom')
 module.exports = {
   ttki,
   kimdasb,
-  matematika_1,
+  matematika1,
   par,
   binggris,
-  matematika_2,
+  matematika2,
   olahraga,
   prd,
   pengkom,

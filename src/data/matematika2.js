@@ -1,5 +1,5 @@
 module.exports = {
-    matematika_2: 
+    matematika2: 
     {   
         nama : "KALKULUS IIA", 
         semester: 2,
