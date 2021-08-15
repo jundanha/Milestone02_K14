@@ -1,6 +1,7 @@
 module.exports = {
     pengkom : 
-    {    
+    {   
+        nama : "PENGENALAN KOMPUTASI", 
         semester: 1,
         files: [],
         subbab: [

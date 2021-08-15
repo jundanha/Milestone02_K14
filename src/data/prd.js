@@ -1,6 +1,7 @@
 module.exports = {
     PRD : 
-    {    
+    {   
+        nama : "PENGANTAR REKAYASA DAN DESAIN", 
         semester: 2,
         files: [],
         subbab: [
