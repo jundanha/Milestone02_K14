@@ -3,7 +3,10 @@ module.exports = {
     {   
         nama : "KALKULUS IIA", 
         semester: 2,
-        files: [{ nama: 'Calculus, 9th Edition, Purcell et al', link: 'https://drive.google.com/file/d/0B8pw4VeuQQy3OENwREs1TDhOYmM/view?resourcekey=0-F9zr2TjeVPbK0W2sNmDDFg' }],
+        files: [
+            { nama: 'Calculus, 9th Edition, Purcell et al', link: 'https://drive.google.com/file/d/0B8pw4VeuQQy3OENwREs1TDhOYmM/view?resourcekey=0-F9zr2TjeVPbK0W2sNmDDFg'},
+            { nama: "Diktat Semester 2", link: "https://drive.google.com/file/d/0B8pw4VeuQQy3bW51bjd2OXQzVlE/view?resourcekey=0-XFTsNHojk9gfafDPmhn0Tw"}
+        ],
         subbab: [
             {
                 nama: "Teknik Pengintegralan",
@@ -73,9 +76,9 @@ module.exports = {
             {
                 nama: "Geometri Ruang dan Vektor",
                 materi: [
-                    {nama: "Vektor", link: ""},
-                    {nama: "Fungsi Bernilai Vektor dan Gerakan Kurvilinear", link: ""},
-                    {nama: "Garis dan Garis Singgung di Ruang Dimensi Tiga", link: ""}
+                    {nama: "Vektor", link: "https://youtube.com/playlist?list=PL6RnfYjZ7lQlal564cOpHn35VhdTj_M-E"},
+                    {nama: "Fungsi Bernilai Vektor dan Gerakan Kurvilinear", link: "https://youtube.com/playlist?list=PL6RnfYjZ7lQlal564cOpHn35VhdTj_M-E"},
+                    {nama: "Garis dan Garis Singgung di Ruang Dimensi Tiga", link: "https://youtube.com/playlist?list=PL6RnfYjZ7lQlal564cOpHn35VhdTj_M-E"}
                 ]
 
             },
