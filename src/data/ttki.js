@@ -1,6 +1,7 @@
 module.exports = {
     ttki: 
     {
+        nama:'TATA TULIS KARYA ILMIAH',
         semester: 1,
         files: [{nama:'Buku sakti', link:'drive.com'},{nama: 'Buku besar', link:'sipsipsip'}],
         subbab: [

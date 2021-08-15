@@ -1,6 +1,7 @@
 module.exports = {
     olahraga: 
-    {    
+    {   
+        nama: "OLAHRAGA", 
         semester: 1,
         files: [],
         subbab: [
@@ -50,7 +51,7 @@ module.exports = {
             {
                 nama: "Harmonisasi Nutrisi dan Aktivitas Fisik yang meningkatkan kualitas kesehatan",
                 materi: [
-                    {nama: "Seminar", link: ""}
+                    {nama: "Seminar", link: "https://youtu.be/Iv2nhHkpCp"}
                 ]
             },
             {
