@@ -10,7 +10,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="navbar.css" />
-    <title>Meet</title>
+    <title>Acadestei | Meet</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -24,23 +24,23 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sm">
       <div class="container">
-        <a class="navbar-brand" href="#" style="font-size: 72px; font-weight: bolder; font-family: 'Kanit'; color: #180e43">ACADE<em>STEI</em></a>
+        <a class="navbar-brand" href="/" style="font-size: 72px; font-weight: bolder; font-family: 'Kanit'; color: #180e43">ACADE<em>STEI</em></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" style="font-size: 24px; font-family: 'Roboto'">Home</a>
+              <a class="nav-link" aria-current="page" href="/" style = "font-size: 24px; font-family: 'Roboto'">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'">Courses</a>
+              <a class="nav-link" href="/course" style = "font-size: 24px; font-family: 'Roboto'">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'">Rooms</a>
+              <a class="nav-link active" href="/meet" style = "font-size: 24px; font-family: 'Roboto'">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="font-size: 24px; font-family: 'Roboto'; color: #bc5064">About us</a>
+              <a class="nav-link" href="/about" style = "font-size: 24px; font-family: 'Roboto';color: #bc5064;">About us</a>
             </li>
           </ul>
         </div>
@@ -59,6 +59,9 @@
           <p class="lead" style="font-family: 'Trebuchet MS'; text-align: justify">
             Kami membantu kalian dengan menyediakan beragam fitur pembelajaran khususnya untuk TPB STEI! Kami berharap kalian bisa memanfaatkannya dengan baik agar dapat lulus TPB dengan hasil yang maksimal!
           </p>
+          <button class="tombolbuat">
+            Buat Ruangan
+          </button>
         </div>
         <div class="col-6">
           <img src="img/cewek.jpg" alt="home" width="580px" height="550px" style="margin-left: 10px" />
@@ -153,6 +156,20 @@
     margin-right: auto;
   }
 
+  .tombolbuat {
+    background-color: #180e43;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: 55px;
+    width: 275px;
+    font-size: 22px;
+    border-radius: 12vw;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+  }
   body button:hover {
     transform: scale(1.08);
   }
@@ -203,4 +220,6 @@
     height: 12vw;
     max-height: 14vw;
   }
+
+
 </style>
