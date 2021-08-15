@@ -243,11 +243,15 @@
 
     <!-- Meets -->
 
-    <div style="background-color: #180e43">
-      <% meets.forEach(meet => { %>
-      <div class="row">
+    <div style="background-color: #180e43; margin-bottom: 0px;">
+      <% meets.forEach((meet, i) => { %>
+        <% if(i===(meet.length)){%>
+          <div class="row d-flex justify-content-center" >
+          <%}else{%>
+            <div class="row d-flex justify-content-center" style="margin-bottom: 9vw;">
+            <%}; %> 
         <% meet.forEach(mt => {%>
-        <div class="col" style="margin-right: auto; margin-left: auto">
+        <div class="col d-flex justify-content-center ">
           <div class="container-meet">
             <div class="lingkaran">
               <img />
@@ -258,9 +262,11 @@
                 <div class="judulmeet"><%= mt.judul %></div>
                 <div class="jammeet"><%= mt.jam %></div>
               </div>
-              <a class="button-meet" href= "//<%=mt.link%>"
-                >Gabung!
-              </a>
+              <button type="button" class="button-meet" >
+                <a href= "//<%=mt.link%>" style="text-decoration: none;">
+                  Gabung!
+                </a> 
+              </button>
             </div>
           </div>
         </div>
@@ -295,10 +301,7 @@
 </script>
 
 <style>
-  .row {
-    margin-bottom: 5vw;
-    margin-left: 9vw;
-  }
+  
 
   .navbar-brand em {
     font-weight: bold;
