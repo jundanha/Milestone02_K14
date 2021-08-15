@@ -1,6 +1,7 @@
 module.exports = {
     olahraga: 
-    {    
+    {   
+        nama: "OLAHRAGA", 
         semester: 1,
         files: [],
         subbab: [
