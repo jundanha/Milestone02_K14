@@ -1,6 +1,8 @@
 module.exports = {
     daspro: 
     {
+        nama:'DASAR PEMROGRAMAN',
+        semester: 2,
         files: [{nama:'Buku sakti', link:'drive.com'},{nama: 'Buku besar', link:'sipsipsip'}],
         subbab: [
             {
