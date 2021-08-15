@@ -1,5 +1,6 @@
 module.exports = {
   matematika_1: {
+    nama: 'MATEMATIKA IA',
     semester: 1,
     files: [{ nama: 'Calculus, 9th Edition, Purcell et al', link: '#' }],
     subbab: [
