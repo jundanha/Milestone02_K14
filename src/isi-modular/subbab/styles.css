@@ -84,15 +84,14 @@ main{
     cursor: pointer;
     width: 100%;
     text-align: left;
-    border: none;
+    border-radius: 10px;
     outline: none;
     transition: 0.5s;
     font-size: 18px;
     padding: 15px;
     font-family: "Poppins";
     float: center;
-    border-radius: 10px;
-    margin-top: 1em;
+    margin-top:1em;
 }
 
 .active, .accordion:hover{
@@ -101,6 +100,7 @@ main{
 }
 
 .panel{
+    border-radius: 10px;
     padding: 0 20px;
     float: center;
     max-height: 0;
@@ -108,7 +108,6 @@ main{
     display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    border-radius:10px;
     margin-bottom: 1em;
 }
 
