@@ -1,6 +1,7 @@
 module.exports = {
   par: {
-    semester: 1,
+    nama: 'PENGANTAR ANALISIS RANGKAIAN',
+    semester: 2,
     files: [{ nama: 'Fundamentals of Electric Circuits, Sadiku', link: 'https://drive.google.com/drive/u/0/folders/0B8pw4VeuQQy3U0o5NU1hVzJ6WUU?direction=a&resourcekey=0-Iua_f86cNZ2Av3LDln2Htg' }],
     subbab: [
       {
