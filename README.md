@@ -4,7 +4,7 @@
 ## Kelompok 14 : de kipakers jederrr :v
 
 ## Anggota dan Kontribusi
-16520023 Jundan Haris (harris j) 
+16520023 Jundan Haris (paling tidak wibu...) 
 membuat halaman tiap course dan belajar bersama
 
 16520046 Faiza Aqiela Zuma (izi-kun)
