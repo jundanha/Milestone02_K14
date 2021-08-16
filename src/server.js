@@ -99,11 +99,13 @@ app.post("/api/tambahmeet", (req, res) => {
   const data = req.body;
   var today = new Date();
   var time = today.getHours() + ":" + today.getMinutes();
+  var link = new URL();
+  link.hostname = data.link;
   let newMeet = {
     matkul: data.matkul,
     judul: data.judul,
     platform: data.platform,
-    link: data.link,
+    link: link.href,
     jam: time
   };
   try{
