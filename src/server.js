@@ -91,6 +91,35 @@ app.post("/api/tambahmeet", (req, res) => {
 });
 
 /**
+ * Router to delete meet
+ */
+
+ app.post("/api/tambahmeet", (req, res) => {
+  console.log("ada");
+  const data = req.body;
+  var today = new Date();
+  var time = today.getHours() + ":" + today.getMinutes();
+  let newMeet = {
+    matkul: data.matkul,
+    judul: data.judul,
+    platform: data.platform,
+    link: data.link,
+    jam: time
+  };
+  try{
+    const fileData = fs.readFileSync("./data/meet.json");
+    const meets = JSON.parse(fileData);
+    const newMeets = {
+      meet: [...meets.meet, newMeet]
+    }
+    fs.writeFileSync("./data/meet.json", JSON.stringify(newMeets))
+  }catch{
+    res.status(500).json({message: "gagal menyimpan meet baru"})
+  }
+  res.status(200).json({message:"success"})
+});
+
+/**
  * Router to get specific matkul data
  * need a route parameter that specify the data
  */
