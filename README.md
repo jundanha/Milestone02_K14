@@ -33,10 +33,10 @@ membuat homepage dan course selection
 
 ## Menggunakan Solusi
 ### buka https://acadestei.herokuapp.com/
-### jika ingin melihat materi, tekan 'Courses' pada navigation bar
-#### pilih mata kuliah yang ingin dipelajari
-#### eksplorasi konten yang disediakan
-### jika ingin belajar bersama, tekan 'Rooms' pada navigation bar
-#### pilih ruang belajar yang ingin kamu ikuti sesuai dengan kebutuhan
-#### jika tidak tersedia, maka bisa menggunakan fitur 'Buat Ruangan' dan mengisi detail ruangan
-### jika ingin tahu kita lebih dalam, tekan 'About Us'
+### - jika ingin melihat materi, tekan 'Courses' pada navigation bar
+#### - pilih mata kuliah yang ingin dipelajari
+#### - eksplorasi konten yang disediakan
+### - jika ingin belajar bersama, tekan 'Rooms' pada navigation bar
+#### - pilih ruang belajar yang ingin kamu ikuti sesuai dengan kebutuhan
+#### - jika tidak tersedia, maka bisa menggunakan fitur 'Buat Ruangan' dan mengisi detail ruangan
+### - jika ingin tahu kita lebih dalam, tekan 'About Us'
