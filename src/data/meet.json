@@ -1,32 +1,8 @@
 {
-    "meet": [
-        {
-            "matkul":"Matematika 1",
-            "judul":"Bosen niee mending ke siniii",
-            "platform": "Meet",
-            "link":"https://meet.google.com/wiv-vnri-rcb",
-            "jam": "12.00"
-        },
-        {
-            "matkul":"TTKI",
-            "judul":"Apa baeee",
-            "platform": "Meet",
-            "link":"https://meet.google.com/wiv-vnri-rcb",
-            "jam": "14.00"
-        },
-        {
-            "matkul":"TTKI",
-            "judul":"Apa baeee",
-            "platform": "Meet",
-            "link":"https://meet.google.com/wiv-vnri-rcb",
-            "jam": "14.00"
-        },
-        {
-            "matkul":"TTKI",
-            "judul":"Apa baeee",
-            "platform": "Meet",
-            "link":"https://meet.google.com/wiv-vnri-rcb",
-            "jam": "14.00"
-        }
-    ]
+  "meet": [
+    { "matkul": "Matematika 1", "judul": "Bosen niee mending ke siniii", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "12.00" },
+    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" },
+    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" },
+    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" }
+  ]
 }
