@@ -1,8 +1,11 @@
 {
   "meet": [
-    { "matkul": "Matematika 1", "judul": "Bosen niee mending ke siniii", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "12.00" },
-    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" },
-    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" },
-    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/wiv-vnri-rcb", "jam": "14.00" }
+    { "matkul": "MATEMATIKA 1", "judul": "Bosen nih", "platform": "Meet", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "12.00" },
+    { "matkul": "FISIKA 2", "judul": "Susah bgt fisika", "platform": "Zoom", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" },
+    { "matkul": "TTKI", "judul": "Apa baeee", "platform": "Meet", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" },
+    { "matkul": "KIMIA DASAR B", "judul": "Nobar Pak GP", "platform": "Discord", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" },
+    { "matkul": "PAR", "judul": "Kerjain PR", "platform": "Meet", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" },
+    { "matkul": "OLAHRAGA", "judul": "Nonton Mas Agung", "platform": "Discord", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" },
+    { "matkul": "PRD", "judul": "Dengerin Pak Infall", "platform": "Meet", "link": "https://meet.google.com/dzo-xjea-rrf", "jam": "14.00" }
   ]
 }
